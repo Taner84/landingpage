@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../landingpage/css/style.css">
-    <title>Landing page</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Video Background</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Roboto&display=swap"
+          rel="stylesheet"
+        />
+      </head>
 <body>
-    <header>
-        <div class="logo">
-            <div>Header Logo</div>
-            <div>Header link one</div>
-            <div>Header link two</div>
-            <div>Header link three</div>
+    <div class="home">
+        <video autoplay muted loop>
+          <source src="../images/code.mp4" type="video/mp4" />
+        </video>
+        <div class="overlay"></div>
+        <div class="home-content">
+          <h1>This website is Awesome</h1>
+        
+          <button>This website has some subtext that goes here under the main title. It's a smaller font and the color is a lower contrast.</button>
         </div>
-
-        <div class ="cta">
-            <h1>This website is Awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is a lower contrast.</p>
-            <video src="../landingpage/images/code.mp4" autoplay controls muted loop alt="coding video"></video>
-        </div>
-    </header>
+      </div>
 
     
 </body>
