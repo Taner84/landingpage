@@ -5,6 +5,7 @@ header{
     background-color: #1F2937;
 }
 .logo{
+    display: inline-block;
     font-size: 24px;
     color: #f9faf8;
 }
