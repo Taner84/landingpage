@@ -5,9 +5,14 @@ header{
     background-color: #1F2937;
 }
 .logo{
-    display: inline-block;
+    display: flex;
+    flex: 1;
     font-size: 24px;
     color: #f9faf8;
+}
+.menu_one{
+    display: flex;
+    flex: 2;
 }
 h1{
     font-size: 48px;
@@ -19,7 +24,8 @@ p{
     color: #e5e7eb;
 }
 video{
-    display: inline-block;
+    display: flex;
+    flex: 1;
     height:250px;
     width: 400px;
 }*/
