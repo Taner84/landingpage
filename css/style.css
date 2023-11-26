@@ -18,6 +18,7 @@ p{
     color: #e5e7eb;
 }
 .video{
+    display: block;
     height:200px;
     width: 100px;
 }
