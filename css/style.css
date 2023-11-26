@@ -69,3 +69,7 @@ video {
     flex:1;
     background: grey;
 }
+.project_list{
+    display: flex;
+    flex: 1;
+}
