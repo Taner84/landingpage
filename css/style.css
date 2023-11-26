@@ -64,3 +64,6 @@ video {
   padding: 16px 30px;
   cursor: pointer;
 }
+.projects{
+    background: grey;
+}
