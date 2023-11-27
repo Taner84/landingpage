@@ -65,8 +65,6 @@ video {
   cursor: pointer;
 }
 .projects{
-    display:flex;
-    flex:1;
     background: grey;
 }
 .project_list{
