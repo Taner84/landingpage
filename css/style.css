@@ -29,8 +29,7 @@ video {
 .topnav {
     background-color: grey;
     top: 0;
-    z-index: 2;
-    min-height: 50px;
+    z-index: 10;
     position: sticky;
   }
   .topnav a {
