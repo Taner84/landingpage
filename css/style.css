@@ -70,4 +70,5 @@ video {
 .project_list{
     display: flex;
     flex: 1;
+    border: 1px;
 }
