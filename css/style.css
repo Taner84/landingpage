@@ -85,15 +85,14 @@ video {
   cursor: pointer;
 }
 .projects{
-    background: grey;
+    opacity: 0.7;
 }
 /*projets*/
 .project-items{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    align-content: center;
 }
 .pi{
     width: 200px;
