@@ -91,8 +91,28 @@ video {
 .projects{
     background: grey;
 }
-.project_list{
+.project-items{
     display: flex;
-    flex: 1;
-    border: 1px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.pi{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid blue;
+    background-color: white;
+}
+.p1{
+    min-height: 100px;
+}
+.p2{
+    min-height: 100px;
+}
+.p3{
+    min-height: 100px;
+}
+.p4{
+    min-height: 100px;
 }
