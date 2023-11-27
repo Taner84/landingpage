@@ -104,14 +104,26 @@ video {
 }
 
 .profiles{
-  background-color: black;
+  background-color: blue;
+  width: 600px;
+  border-radius: 25px;
+  position: sticky;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.pro-text{
+  color: white;
+  font-weight: bold;
+}
+
 .pro{
   width: 200px;
   margin: 10px;
-  border: 3px solid blue;
-  background-color: white;
+  border: 3px solid #1F2937;
+  background-color: green;
   min-height: 100px;
+  border-radius: 25px;;
 }
 
 .profile-items{
