@@ -103,8 +103,7 @@ li a:hover {
   grid-row: 1/3;
 }
 
-.video-img img {
-  width: 100%;
+.video-img video {
   height: 30vh;
   object-fit: fill;
 }
