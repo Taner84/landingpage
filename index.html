@@ -16,20 +16,18 @@
 
 <body>
     <header class="images">
-        <nav>
-          <div>
-            <i class="fas fa-menu"></i>
-          </div>
-          <div>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">projects</a></li>
-              <li><a href="#">contact</a></li>
-            </ul>
-          </div>
-        </nav>
+      <!--Nav Bar-->
+      <nav class="topnav">
+        <a class="active" href="#home">Home</a>
+        <div class="right">
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+        <!--End Nav Bar-->
+
         <section class="grid-container">
           <div class="nerd-info">
             <h1>Check out these nerds </h1>
@@ -41,10 +39,13 @@
             <button>Sign Up</button>
             <button>Login</button>
           </div>
+
           <div class="video-img">
-            <video  width="430" height="250" controls>
-                <source src=images/code.mp4" type="video/mp4">
+           <video autoplay muted loop width="430" height="250">
+            <source src="images/code.mp4" type="video/mp4" />
+        </video>
           </div>
+
         </section>
       </header>
 
