@@ -15,7 +15,7 @@
   display: flex;
   padding: 0 15vw 10vh 15vw;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .flex-container div {
@@ -50,7 +50,7 @@ figcaption {
 
 /*menu-nav bar*/
 .topnav {
-  background-color: grey;
+  background-color: #babdc5;
   top: 0;
   position: sticky;
 }
@@ -150,7 +150,7 @@ h2 {
 }
 
 .content {
-  background-color: #e5e7eb;
+  background-color: #babdc5;
   padding: 10px 15px 10px 15px;
   font-size: 2.2rem;
   color: #1f2937;
