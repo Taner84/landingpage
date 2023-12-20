@@ -15,6 +15,7 @@
   display: flex;
   padding: 0 15vw 10vh 15vw;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .flex-container div {
@@ -27,6 +28,11 @@
   height: 200px;
   object-fit: fill;
   border-radius: 0.7rem;
+}
+
+.flex-container img {
+  width: 170px;
+  height: 200px;
 }
 
 .grid-container {
@@ -87,6 +93,7 @@ figcaption {
 .video-img video {
   height: 30vh;
   object-fit: fill;
+  margin-top: 50px;
 }
 
 h1 {
@@ -96,9 +103,14 @@ h1 {
   color: white;
 }
 
+.nerd-info h1 {
+  padding: 20px;
+}
+
 .nerd-info p {
   font-size: 1.2rem;
   color: white;
+  margin: 20px;
 }
 
 .login button {
@@ -109,6 +121,7 @@ h1 {
   font-weight: 700;
   padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 0.7rem;
+  margin: 20px;
 }
 
 h1 {
@@ -138,9 +151,13 @@ h2 {
 
 .content {
   background-color: #e5e7eb;
-  padding: 10vh 15vw 10vh 15vw;
+  padding: 10px 15px 10px 15px;
   font-size: 2.2rem;
   color: #1f2937;
+}
+
+.content p {
+  text-align: center;
 }
 
 .content .normal {
